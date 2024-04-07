@@ -1,0 +1,117 @@
+.bgimage {
+    height:100vh;
+    background: url('https://thumbs.dreamstime.com/z/future-artificial-intelligence-robot-cyborg-d-rendering-artificial-intelligence-ai-research-robot-cyborg-development-208115223.jpg?w=1200');
+    background-size:cover;
+    position:sticky;
+}
+.ten {
+    font-size: 2rem;
+    color:rgb(14, 18, 14);
+}
+.four {
+    font-size: 3rem;
+    color:rgb(15, 12, 11)
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.navbar{
+    color:white;
+}
+.imageAboutPage {
+    width: 100%;
+}
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+
+
+
+
+
+body{
+    margin:0;
+    overflow-x:hidden;
+    }
+    
+    .footer{
+    background: #181818;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    display: flexbox;
+    flex-direction: row;
+    
+    }
+    
+    .footer .col{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:rgb(226, 52, 52);
+    font-size:0.8em;
+    display: flexbox ;
+    flex-direction: column;
+
+    }
+    
+    .footer .col a{
+    text-decoration:none;
+    color:rgb(241, 83, 83);
+    transition:0.5s;
+    margin:0px 10px;
+    }
+    
+    .footer .col a:hover{
+    color:#cc2828;
+    }
+    
+    .footer .col ul{
+    width:100%;
+    }
+    
+    .footer .col ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }}
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    
